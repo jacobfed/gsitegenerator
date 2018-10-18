@@ -10,14 +10,14 @@ ssh caen """
 echo 'Navigate to AWS'
 cd ../../afs/umich.edu/group/c/cgalbanlab/Private/gsitegenerator
 
+echo 'Activate virtual Environment'
 source env/bin/activate
 
 echo 'Pulling current website generator from github'
 git pull
 
-rm -rf galban/html
+#rm -rf galban/html
 
 # Build
 sitegenerator -v galban
 """
-

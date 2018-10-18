@@ -49,7 +49,7 @@ def main(verbose, input_dir):
             # Setup mkdir setup TODO
             if not os.path.exists(os.path.abspath(input_dir + '/html' +
                                                   index['url'])):
-                os.makedirs(os.path.abspath(input_dir +
+                os.makedirs(os.path.abspath(input_dir   +
                                             '/html' + index['url']))
             path_to_outputfile = os.path.abspath('../../Public' + '/html' +
                                                  index['url'] + index['template'])

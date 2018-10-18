@@ -76,14 +76,14 @@
       "projects": [
         {
           "name": "Lung Disease",
-          "description": "New approaches to characterize obstructive and restrictive lung diseases.",
+          "description": "new approaches to characterize obstructive and restrictive lung diseases.",
           "img_url":"/~cgalbanlab/img/copd.png",
           "img_alt":"symbol",
           "url":"projects/copd/project.html"
         },
         {
           "name": "GVHD",
-          "description": "Detection and monitoring of pulmonary complications in trasplant recipients with GVHD.",
+          "description": "detection and monitoring of pulmonary complications in trasplant recipients with GVHD.",
           "img_url":"/~cgalbanlab/img/bos.png",
           "img_alt":"symbol",
           "url":"projects/bos2/project.html"
