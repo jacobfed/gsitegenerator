@@ -32,7 +32,7 @@ def main(verbose, input_dir):
         # Check for css file and add to html directory if necessary
         if os.path.exists(os.path.abspath(input_dir + '/static/')):
             shutil.copytree(os.path.abspath(input_dir + '/static/'),
-                            os.path.abspath('../../Public' + '/html/'))
+                            os.path.abspath(input_dir + '/html/'))
             if verbose:
                 print('Copied ' + input_dir + '/static/ -> '
                       + input_dir + "/html/")
@@ -49,9 +49,9 @@ def main(verbose, input_dir):
             # Setup mkdir setup TODO
             if not os.path.exists(os.path.abspath(input_dir + '/html' +
                                                   index['url'])):
-                os.makedirs(os.path.abspath(input_dir   +
+                os.makedirs(os.path.abspath(input_dir +
                                             '/html' + index['url']))
-            path_to_outputfile = os.path.abspath('../../Public' + '/html' +
+            path_to_outputfile = os.path.abspath(input_dir + '/html' +
                                                  index['url'] + index['template'])
             print(os.path.abspath(input_dir + '/html' + index['url'] + index['template']))
             outputfile = open(path_to_outputfile, 'w')
