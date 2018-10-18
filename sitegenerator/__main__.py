@@ -51,7 +51,7 @@ def main(verbose, input_dir):
                                                   index['url'])):
                 os.makedirs(os.path.abspath(input_dir +
                                             '/html' + index['url']))
-            path_to_outputfile = os.path.abspath(input_dir + '/html' +
+            path_to_outputfile = os.path.abspath('../../Public' + '/html' +
                                                  index['url'] + index['template'])
             print(os.path.abspath(input_dir + '/html' + index['url'] + index['template']))
             outputfile = open(path_to_outputfile, 'w')
