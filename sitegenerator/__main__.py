@@ -32,7 +32,7 @@ def main(verbose, input_dir):
         # Check for css file and add to html directory if necessary
         if os.path.exists(os.path.abspath(input_dir + '/static/')):
             shutil.copytree(os.path.abspath(input_dir + '/static/'),
-                            os.path.abspath(input_dir + '/html/'))
+                            os.path.abspath('../../Public' + '/html/'))
             if verbose:
                 print('Copied ' + input_dir + '/static/ -> '
                       + input_dir + "/html/")
