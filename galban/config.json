@@ -123,9 +123,9 @@
     "url": "/",
     "template": "index.html",
     "context": {
-      "bio" : "The mission of the C. Galban Lab is to fully exploit the spatial and functional information within clinical imaging data with the goal of advancing personalized medicine, both in terms of optimizing disease management, and tailoring treatment to the individual patient. On-going projects include topological feature extraction for improved COPD subtyping, optimized radiation planning to minimize lung injury in lung cancer patients, and improve detection of deployment related small airways disease in post-combat military personnel. These studies are performed in a multi-disciplinary environment which include scientists, physicians, statisticians and engineers, as well as large clinical trials and industrial partners.",
+      "bio" : "One More Test The mission of the C. Galban Lab is to fully exploit the spatial and functional information within clinical imaging data with the goal of advancing personalized medicine, both in terms of optimizing disease management, and tailoring treatment to the individual patient. On-going projects include topological feature extraction for improved COPD subtyping, optimized radiation planning to minimize lung injury in lung cancer patients, and improve detection of deployment related small airways disease in post-combat military personnel. These studies are performed in a multi-disciplinary environment which include scientists, physicians, statisticians and engineers, as well as large clinical trials and industrial partners.",
       "images": [
-        {
+          {
           "img_url":"/~cgalbanlab/img/prm1.jpg",
           "img_alt":"prm1",
           "active" : "active"
