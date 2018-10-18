@@ -23,6 +23,10 @@ rm -rf galban/html
 sitegenerator -v galban
 
 cd galban/html/
+touch hands
+cp -rf ./ ../../../Public/html/
+"""
+"""
 mv collaborators.html ../../../../Public/html/
 mv conferences.html ../../../../Public/html/
 mv research.html ../../../../Public/html/
@@ -30,9 +34,8 @@ mv index.html ../../../../Public/html/
 mv opportunities.html ../../../../Public/html/
 mv publications.html ../../../../Public/html/
 mv team.html ../../../../Public/html/
-mv css/ ../../../../Public/html/
-mv fontawesome/ ../../../../Public/html/
-mv img/ ../../../../Public/html/
-mv projects/ ../../../../Public/html/
-
+mv ./css ../../../../Public/html/
+mv ./fontawesome ../../../../Public/html/
+mv ./img ../../../../Public/html/
+mv ./projects ../../../../Public/html/
 """
