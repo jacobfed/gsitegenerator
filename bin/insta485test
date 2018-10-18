@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# stop on errors, print commands
+
+set -e
+set -x
+
+# Clean
+rm -rf insta485/html
+
+# Build
+insta485generator insta485
+
+python -m unittest discover --start-directory tests --verbose
+
+pycodestyle insta485generator
+
+pydocstyle insta485generator
+
+pylint --reports=n insta485generator
+
+html5validator --ignore JAVA_TOOL_OPTIONS --root html
+
+html5validator --ignore JAVA_TOOL_OPTIONS --root insta485/html

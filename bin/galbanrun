@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# stop on errors, print commands
+
+set -e
+set -x
+
+# Clean
+rm -rf galban/html
+
+# Build
+sitegenerator -v galban
+
+# serve 
+cd galban/html
+python3 -m http.server 8000

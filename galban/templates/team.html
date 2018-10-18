@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required Meta tags -->
+  <meta charset="utf-8">
+  <!-- New to Bootstrap4 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap4 CSS -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+  <!-- New Font Scripts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+  <!-- Personalized Style Sheet for bootstrap changes -->
+  <link rel="stylesheet" type="text/css"  href="/~cgalbanlab/css/style.css">
+
+  <!-- Umich Icon for Chrome tabs -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <title>Galban Lab</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/~cgalbanlab/img/craigLogo.png" alt="Craig Logo" width="60%">
+        <div class="d-block d-md-none ">
+          <br/>
+        </div>
+      </div>
+      <!-- Place for image of labs around the world-->
+      <div class="col-md-6">
+        <p> Algorithmic development of translatable CT-based biomarkers for disease
+        phenotyping and prediction of therapeutic response and survival.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Start of Navbar -->
+  <nav class="navbar navbar-expand-md bg-light navbar-light container sticky-top">
+    <!-- Brand -->
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class= "nav-link" href="index.html">Home</a></li>
+    </ul>
+
+    <!-- Collapsible Button for Mobile Devices -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> 
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    
+    <!-- Pages with (no) Dropdowns -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+        <li class="nav-item active"><a class="nav-link" href="team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="collaborators.html">Collaborators</a></li>
+        <li class="nav-item"><a class="nav-link" href="conferences.html">Conferences</a></li>
+        <li class="nav-item"><a class="nav-link" href="opportunities.html">Opportunities</a></li>
+      </ul>
+    </div>
+  </nav>  
+
+  <!-- End of Navbar -->
+
+
+  <!-- Start of Team Members -->
+  <div class="d-none d-lg-block">
+    <script>
+       $(document).click(function(e) {
+      if (!$(e.target).is('.panel-body')) {
+          $('.collapse').collapse('hide');	    
+        }
+    }); 
+    </script>
+    <!-- Start of Desktop Core Team -->
+    <div class="container text-center">
+      <h1>Current Members</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          {% for member in members %}
+          <h3>{{member.title}}</h3>
+          <button type="button" class="btn-lg btn-outline-dark" data-toggle="collapse" data-target="#{{member.target}}">{{member.name}}</button>
+          <br/>
+          <br/>
+          {% endfor %}
+        </div>
+        <div class="col-md-6">
+            {% for member in members %}
+            <div id="{{member.target}}" class="collapse">
+              <h3>{{member.name}}</h3>
+              <p>
+              {% for info in member.content %}
+               {{info.details}} <br/>
+              {% endfor %}
+              </p>
+              {% if member.img == "true" %}
+              <img src="{{member.img_url}}" alt="Member's Photo" height="200">
+              {% endif %}
+              {% if member.link == "true" %}
+              <a href="{{member.link_url}}"> {{member.link_type}} </a> 
+              {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- End of Core Team -->
+    <!-- Start of Affiliated Members -->
+    <div class="container text-center">
+      <h1>Affiliated Members</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          {% for member in affiliated %}
+          <h3>{{member.title}}</h3>
+          <button type="button" class="btn-lg btn-outline-dark" data-toggle="collapse" data-target="#{{member.target}}">{{member.name}}</button>
+          <br/>
+          <br/>
+          {% endfor %}
+        </div>
+        <div class="col-md-6">
+            {% for member in affiliated %}
+            <div id="{{member.target}}" class="collapse">
+              <h3>{{member.name}}</h3>
+              <p>
+              {% for info in member.content %}
+               {{info.details}} <br/>
+              {% endfor %}
+              </p>
+              {% if member.img == "true" %}
+              <img src="{{member.img_url}}" alt="Member's Photo" height="200">
+              {% endif %}
+              <br/>
+              {% if member.link == "true" %}
+              <a href="{{member.link_url}}"> {{member.link_type}} </a> 
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Affiliated Members -->
+
+  <!-- End of  Desktop Team Members -->
+  
+  <!-- Start of Mobile Team Members -->
+  <div class="d-md-none">
+    <div class="container text-center">
+      <h1>Current Members</h1>
+    </div>    
+    {% for member in members %}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>{{ member.title }}</h3>
+          <button type="button" class="btn-lg btn-outline-dark" data-toggle="collapse" data-target="#{{member.target2}}">{{member.name}}</button>
+          <div id="{{member.target2}}" class="collapse">
+            <br/>
+              <h3>{{member.name}}</h3>
+              <p>
+              {% for info in member.content %}
+               {{info.details}} <br/>
+              {% endfor %}
+              </p>
+              {% if member.img == "true" %}
+              <img src="{{member.img_url}}" alt="Member's Photo" height="200">
+              {% endif %}
+              <br/>
+              {% if member.link == "true" %}
+              <a href="{{member.link_url}}"> {{member.link_type}} </a> 
+              {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    <!-- End of Mobile Team Members -->
+
+    <!-- Start of Mobile Affiliated Members -->
+    <div class="container text-center">
+      <h1>Affiliated members</h1>
+    </div>    
+    {% for member in affiliated %}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>{{ member.title }}</h3>
+          <button type="button" class="btn-lg btn-outline-dark" data-toggle="collapse" data-target="#{{member.target2}}">{{member.name}}</button>
+          <div id="{{member.target2}}" class="collapse">
+            <br/>
+              <h3>{{member.name}}</h3>
+              <p>
+              {% for info in member.content %}
+               {{info.details}} <br/>
+              {% endfor %}
+              </p>
+              {% if member.img == "true" %}
+              <img src="{{member.img_url}}" alt="Member's Photo" height="200">
+              {% endif %}
+              <br/>
+              {% if member.link == "true" %}
+              <a href="{{member.link_url}}"> {{member.link_type}} </a> 
+              {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- End of Mobile Affiliated Members --> 
+  <!-- Horizontal Line -->
+  <div class="container text-center">
+    <hr>
+  </div>
+</body>
+</html>

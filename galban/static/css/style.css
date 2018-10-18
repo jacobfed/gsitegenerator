@@ -1,0 +1,107 @@
+.navbar {
+  margin-bottom: 0;
+  background-color: #2A2A2A;
+  color: #FFF;
+  font-size: 1.2em;
+  border: 0;
+}
+.navbar-brand {
+  float: left;
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav
+.active a:hover {
+  color: #FFF;
+  background-color: #2A2A2A;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #D5D5D5;
+}
+/* Start of Fonts */
+p, a {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: justify;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h2,h3,h4,h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.smaller {
+  font-size:14px;
+  color: grey;
+}
+/* End of Fonts */
+
+.container {
+  margin: 4% auto;
+}
+
+#icon {
+  height=100px;
+  max-width: 200px;
+  margin: 1% auto;
+}
+
+
+.img-responsive {
+  margin: 0 auto;
+}
+
+.image-usa {
+  width: 50%;
+  height: auto;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover{
+  color:lightblue;
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+h5:hover{
+ color:lightblue;
+}
+
+hoverable:hover {
+  color:lightblue;
+
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after 
+{
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+.brand-primary: {
+  color:#ffcb05;
+}
+

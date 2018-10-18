@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required Meta tags -->
+  <meta charset="utf-8">
+  <!-- New to Bootstrap4 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap4 CSS -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+  <!-- New Font Scripts -->
+  <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+  <!-- Personalized Style Sheet for bootstrap changes -->
+  <link rel="stylesheet" type="text/css"  href="/~cgalbanlab/css/style.css">
+
+ <!-- Umich Icon for Chrome tabs -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <title>Galban Lab</title> 
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/~cgalbanlab/img/craigLogo.png" alt="Craig Logo" width="60%">
+        <div class="d-block d-md-none ">
+          <br/>
+        </div>
+      </div>
+      <!-- Place for image of labs around the world-->
+      <div class="col-md-6">
+        <p> “If you want to go fast, go alone. If you want to go far, go together.”</p>
+        <p class="text-right">-African Proverb</p>
+      </div>
+    </div>
+  </div>
+  <!-- Start of Navbar -->
+  <nav class="navbar navbar-expand-md bg-light navbar-light container sticky-top">
+    <!-- Brand -->
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class= "nav-link" href="index.html">Home</a></li>
+    </ul>
+
+    <!-- Collapsible Button for Mobile Devices -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> 
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    
+    <!-- Pages with (no) Dropdowns -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+        <li class="nav-item active"><a class="nav-link" href="collaborators.html">Collaborators</a></li>
+        <li class="nav-item"><a class="nav-link" href="conferences.html">Conferences</a></li>
+        <li class="nav-item"><a class="nav-link" href="opportunities.html">Opportunities</a></li>
+      </ul>
+    </div>
+  </nav>  
+
+  <!-- End of Navbar -->
+
+  <!-- End of Base URL -->
+
+  <div class="container text-center">
+    <H2>Research Opportunities</h2>
+    <p class="text-center">If you are looking to become a collaborator with us, fill out this <u><a href="https://goo.gl/forms/wj3QrPfOdotVRWjo1">Google Form</a></u>.</p>
+  </div>
+  <!-- Start of Collaborations -->
+  <div class="container text-center">
+    <h1> Ongoing Collaborations </h1>
+    <div class="row">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.google.co.uk/maps/d/u/0/embed?mid=133o4gAaNOna_zLEBb8AY34Zj9oBi8QP4&z=2"></iframe>
+      </div>
+    </div>
+    <br/><br/>
+    <button type="button" class="btn-lg btn-outline-dark" data-toggle="collapse" data-target="#collaborators">List of Collaborators</button>
+        <div id="collaborators" class="collapse"> 
+        <br/>
+        <h4> Michigan </h4>
+        {% for collaborator in michigan %}
+         {{collaborator.name}} <br/>
+        {% endfor %}
+        <br/>
+        <h4> United States </h4>
+        {% for collaborator in us %}
+         {{collaborator.name}} <br/>
+        {% endfor %}
+        <br/>
+        <h4> International </h4>
+        {% for collaborator in international %}
+         {{collaborator.name}} <br/>
+        {% endfor %}          
+      </div>
+  </div>
+
+
+  <!-- End of Collaborations -->
+
+
+  <!-- Horizontal Line -->
+  <div class="container text-center">
+    <hr>
+  </div>
+</body>
+</html>

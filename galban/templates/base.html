@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {% block head %}
+  <!-- Required Meta tags -->
+  <meta charset="utf-8">
+  <!-- New to Bootstrap4 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap4 CSS -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+  <!-- New Font Scripts -->
+  <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+  <!-- Personalized Style Sheet for bootstrap changes -->
+  <link rel="stylesheet" type="text/css"  href="/css/style.css">
+
+ <!-- Umich Icon for Chrome tabs -->
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+  <title>Galban Lab</title> 
+  {% endblock %}
+</head>
+
+<body>
+  <div>{% block content %}{% end block %}</div>
+  <!-- Horizontal Line -->
+  <div class="container text-center">
+    <hr>
+  </div>
+</body>
+</html>
