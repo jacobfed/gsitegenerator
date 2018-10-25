@@ -90,12 +90,9 @@
     <div class="row">
     {% for posting in opportunities %}
       <div class="container text-center">
-        <div class="col-md-5">
-          <h4>{{ posting.title }}</h4>
-          <div class="embed-responsive embed-responsive-21by9">
-            <iframe class="embed-responsive-item" src="{{posting.pdf}}"></iframe>
-            </div>
-          <p>For more information, please email {{posting.email}}</p>
+        <div class="col-md-12">
+          <h4>{{ posting.title }}</h4>  
+          <p>For more information, check this <a class="embed-responsive-item" src="{{posting.pdf}}"> pdf </a> please email {{posting.email}}</p>
       </div>
     {% endfor %}
     </div>
