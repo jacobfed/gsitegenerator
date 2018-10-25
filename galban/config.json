@@ -255,7 +255,25 @@
             {"details":"Computer Engineering"},
             {"details":"Email: lreyn@umich.edu"}
           ]
-        }
+        },
+        {          
+          "name": "Nadia Hassan",
+          "title":"Research Assistant",
+          "target":"nadia",
+          "target2":"nadia1",
+          "info":"University of Michigan",
+          "img":"false",
+          "img_url":"",
+          "link": "false",
+          "link_type": "",
+          "link_url":"",
+          "content": [
+            {"details":"University of Michigan,"},
+            {"details":"Biomedical Engineering"},
+            {"details":"Email: hassannad@umich.edu"}
+          ]
+        },
+
       ],     
       "affiliated": [
         {
