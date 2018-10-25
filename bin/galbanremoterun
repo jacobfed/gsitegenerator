@@ -3,7 +3,6 @@
 # stop on errors, print commands
 
 set -e
-set -x
 
 ssh caen """
 # Clean

@@ -1,12 +1,6 @@
 [
   {
     "url": "/",
-    "template": "d.html",
-    "context" : {
-    }
-  },
-  {
-    "url": "/",
     "template": "google8c189b29badc410f.html",
     "context" : {
     }
@@ -15,12 +9,14 @@
     "url": "/",
     "template": "publications.html",
     "context" : {
+        "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival."
     }
   },
   {
     "url": "/",
     "template": "opportunities.html",
     "context" : {
+      "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
       "opportunities" : [
         {
         "title" : "Research Assistant",
@@ -39,6 +35,7 @@
     "url": "/",
     "template": "collaborators.html",
     "context" : {
+      "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
       "michigan": [
         { "name":"Beaumont Health" },
         { "name":"Michigan Medicine"},
@@ -73,6 +70,7 @@
     "url": "/",
     "template": "research.html",
     "context": {
+      "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
       "projects": [
         {
           "name": "Lung Disease",
@@ -123,6 +121,7 @@
     "url": "/",
     "template": "index.html",
     "context": {
+      "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
       "bio" : "The mission of the C. Galban Lab is to fully exploit the spatial and functional information within clinical imaging data with the goal of advancing personalized medicine, both in terms of optimizing disease management, and tailoring treatment to the individual patient. On-going projects include topological feature extraction for improved COPD subtyping, optimized radiation planning to minimize lung injury in lung cancer patients, and improve detection of deployment related small airways disease in post-combat military personnel. These studies are performed in a multi-disciplinary environment which include scientists, physicians, statisticians and engineers, as well as large clinical trials and industrial partners.",
       "images": [
           {
@@ -157,6 +156,7 @@
     "url": "/",
     "template": "team.html",
     "context": {
+      "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
       "members": [
         {
           "name": "Craig Galban, Ph.D.",
@@ -348,6 +348,7 @@
     "url": "/projects/copd/",
     "template": "project.html",
     "context" : {
+      "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
       "title" : "Lung Disease",
       "description" : "",
       "links" : [
