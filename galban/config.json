@@ -331,7 +331,7 @@
     "url": "/projects/copd/",
     "template": "project.html",
     "context" : {
-      "title" : "COPD",
+      "title" : "Lung Disease",
       "description" : "",
       "links" : [
         {
