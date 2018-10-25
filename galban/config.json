@@ -35,7 +35,7 @@
     "url": "/",
     "template": "collaborators.html",
     "context" : {
-      "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
+      "header" :"“If you want to go fast, go alone. If you want to go far, go together.” -African Proverb",
       "michigan": [
         { "name":"Beaumont Health" },
         { "name":"Michigan Medicine"},
