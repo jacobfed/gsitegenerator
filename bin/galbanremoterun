@@ -20,7 +20,7 @@ echo 'removing old html'
 rm -rf galban/html
 
 # Build
-sitegenerator -v galban
+sitegenerator galban
 
 
 echo 'copying built website to public URL'

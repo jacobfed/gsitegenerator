@@ -380,8 +380,8 @@
     "url": "/projects/bos2/",
     "template": "project.html",
     "context" : {
-      "title" : "BOS",
-      "description" : "Brochilitis Obliterans Syndrome",
+      "title" : "GVHD",
+      "description" : "Graft vs. host disease",
       "links" : [
         {
           "url" : "https://rarediseases.info.nih.gov/diseases/9551/bronchiolitis-obliterans",
