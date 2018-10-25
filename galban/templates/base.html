@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-  {% block head %}
   <!-- Required Meta tags -->
   <meta charset="utf-8">
   <!-- New to Bootstrap4 -->
@@ -31,12 +30,10 @@
  <!-- Umich Icon for Chrome tabs -->
   <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
   <title>Galban Lab</title> 
-  {% endblock %}
 </head>
 
 <body>
-  {% block navbar %}{% endblock %}
-  <div>{% block content %}{% endblock %}</div>
+  {% block content %}{% endblock %}
   <!-- Horizontal Line -->
   <div class="container text-center">
     <hr>
