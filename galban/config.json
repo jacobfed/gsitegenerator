@@ -9,7 +9,7 @@
     "url": "/",
     "template": "publications.html",
     "context" : {
-        "header" :"TEST Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival."
+        "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival."
     }
   },
   {
