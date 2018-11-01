@@ -11,13 +11,12 @@
 
     {% for year in years %}
       <h2 data-toggle="collapse" data-target="#a{{year.year}}">{{year.year}}</h2>
-
-      <div id="a{{year.year}}" class="collapse">
-        {% for publication in year.publications %}
-        <a href="{{publication.url}}">{{publication.title}}</a>
-        <br/>
-        <br/>    
-        {% endfor %}
+        <div id="a{{year.year}}" class="collapse">
+          {% for publication in year.publications %}
+            <a href="{{publication.url}}">{{publication.title}}</a>
+            <br/><br/>    
+          {% endfor %}
+        </div>
     {% endfor %}
 
     <h2 data-toggle="collapse" data-target="#a2019">2018</h2>

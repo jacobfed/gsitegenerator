@@ -7,33 +7,6 @@
   },
   {
     "url": "/",
-    "template": "publications.html",
-    "context" : {
-        "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
-        "years": [
-          {
-            "year" : "2018",
-            "publications": [
-              {
-                "title": "Validation of automated lobe segmentation on paired inspiratory-expiratory chest CT in 8-14 year-old children with cystic fibrosis",
-                "url" : "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194557"
-              }
-            ]
-          },          
-          {
-            "year" : "2017",
-            "publications": [
-              {
-                "title": "Validation of automated lobe segmentation on paired inspiratory-expiratory chest CT in 8-14 year-old children with cystic fibrosis",
-                "url" : "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194557"
-              }
-            ]
-          }
-        ]
-    }
-  },
-  {
-    "url": "/",
     "template": "opportunities.html",
     "context" : {
       "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
@@ -589,5 +562,328 @@
         }
       ]
     }
-  }
+  },
+  {
+    "url": "/",
+    "template": "publications.html",
+    "context" : {
+        "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
+        "years": [
+          {
+            "year" : "2018",
+            "publications": [
+              {
+                "title": "Validation of automated lobe segmentation on paired inspiratory-expiratory chest CT in 8-14 year-old children with cystic fibrosis",
+                "url" : "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194557"
+              }
+            ]
+          },          
+          {
+            "year" : "2017",
+            "publications": [
+              {
+                "title": "CT-Based Local Distribution Metric Improves Characterization of COPD",
+                "url" : "https://www.nature.com/articles/s41598-017-02871-1"
+              },
+              {
+                "title": "The role of chest computed tomography in the evaluation and management of the patient with chronic obstructive pulmonary disease",
+                "url" : "https://www.atsjournals.org/doi/10.1164/rccm.201703-0451PP"
+              },
+              {
+                "title": "A bifunctional MAPK/PI3K antagonist for inhibition of tumor growth and metastasis",
+                "url" : "http://mct.aacrjournals.org/content/16/11/2340"
+              },
+              {
+                "title": "Parametric response mapping as an imaging biomarker in lung transplant recipients",
+                "url" : "https://www.atsjournals.org/doi/10.1164/rccm.201604-0732OC"
+              },
+              {
+                "title": "Small airway imaging phenotypes in biomass- and tobacco smoke-exposed patients with COPD",
+                "url" : "http://openres.ersjournals.com/content/3/2/00124-2016"
+              },
+              {
+                "title": "Diffusion MRI in early cancer therapeutic response assessment",
+                "url" : "https://onlinelibrary.wiley.com/doi/abs/10.1002/nbm.3458"
+              },
+              {
+                "title": "Age and small airway imaging abnormalities in subjects with and without airflow obstruction in spiromics",
+                "url" : "https://www.atsjournals.org/doi/10.1164/rccm.201604-0871OC"
+              },
+              {
+                "title": "Parametric response mapping on chest computed tomography associates with clinical and functional parameters in chronic obstructive pulmonary disease",
+                "url" : "https://www.sciencedirect.com/science/article/pii/S0954611116303183?via%3Dihub"
+              },
+              {
+                "title": "Fully automated lobe-based airway taper index calculation in a low dose MDCT CF study over 4 time-points",
+                "url" : "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10133/1/Fully-automated-lobe-based-airway-taper-index-calculation-in-a/10.1117/12.2254387.full?SSO=1"
+              }
+            ]
+          },
+          {
+            "year" : "2016",
+            "publications": [
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              }
+            ]
+          },
+          {
+            "year" : "2015",
+            "publications": [
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              }
+            ]
+          },
+          {
+            "year" : "2014",
+            "publications": [
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              }
+            ]
+          },
+          {
+            "year" : "2013",
+            "publications": [
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              }
+            ]
+          },
+          {
+            "year" : "2012",
+            "publications": [
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              }
+            ]
+          },
+          {
+            "year" : "2011",
+            "publications": [
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              }
+            ]
+          },
+          {
+            "year" : "2010",
+            "publications": [
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              }
+            ]
+          },
+          {
+            "year" : "2009",
+            "publications": [
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              },
+              {
+                "title": "",
+                "url" : ""
+              }
+            ]
+          }
+        ]
+      }
+    }
 ]
