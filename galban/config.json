@@ -745,15 +745,15 @@
               {
                 "title": "Oncogenic Kras is required for both the initiation and maintenance of pancreatic cancer in mice",
                 "url" : "https://www.jci.org/articles/view/59227"
-              }
+              },
               {
                 "title": "Predicting treatment efficacy via quantitative magnetic resonance imaging: a Bayesian joint model",
                 "url" : "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3346284/"
-              }
+              },
               {
                 "title": "Multimodal Imaging of Growth and Rapamycin-Induced Regression of Colonic Adenomas in Apc Mutation-Dependent Mouse",
                 "url" : "https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S1936523312800453?returnurl=https:%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1936523312800453%3Fshowall%3Dtrue&referrer="
-              }
+              },
               {
                 "title": "Multimodality Imaging of Tumor and Bone Response in a Mouse Model of Bony Metastasis",
                 "url" : "https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S1936523312800143?returnurl=https:%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1936523312800143%3Fshowall%3Dtrue&referrer="
@@ -819,7 +819,7 @@
               {
                 "title": "Utility of the K-Means Clustering Algorithm in Differentiating Apparent Diffusion Coefficient Values of Benign and Malignant Neck Pathologies",
                 "url" : "http://www.ajnr.org/content/31/4/736"
-              }
+              },
               {
                 "title": "valuation of Treatment-Associated Inflammatory Response on Diffusion-Weighted Magnetic Resonance Imaging and 2-[18F]-Fluoro-2-Deoxy-d-Glucose-Positron Emission Tomography Imaging Biomarkers",
                 "url" : "http://clincancerres.aacrjournals.org/content/16/5/1542"
@@ -831,7 +831,7 @@
               {
                 "title": "Intravoxel water diffusion heterogeneity imaging of human high‐grade gliomas",
                 "url" : "https://onlinelibrary.wiley.com/doi/abs/10.1002/nbm.1441"
-              },
+              }
             ]
           },
           {
@@ -860,7 +860,7 @@
               {
                 "title": "A Feasibility Study of Parametric Response Map Analysis of Diffusion-Weighted Magnetic Resonance Imaging Scans of Head and Neck Cancer Patients for Providing Early Detection of Therapeutic Efficacy",
                 "url" : "https://www.sciencedirect.com/science/article/pii/S1936523309800168?via%3Dihub"
-              },
+              }
             ]
           }
         ]
