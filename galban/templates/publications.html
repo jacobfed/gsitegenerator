@@ -8,8 +8,20 @@
     <h1> Publications </h1>
     <br/>
     <p class="text-center">Click <a href="https://experts.umich.edu/discover/publication?and_facet_profiles_author=735">HERE</a> for a complete list of Publications with statistics and citing information</p>
-    <h2 data-toggle="collapse" data-target="#a2018">2018</h2>
-    <div id="a2018" class="collapse">
+
+    {% for year in years %}
+      <h2 data-toggle="collapse" data-target="#a{{year.year}}">{{year.year}}</h2>
+
+      <div id="a{{year.year}}" class="collapse">
+        {% for publication in year.publications %}
+        <a href="{{publication.url}}">{{publication.title}}</a>
+        <br/>
+        <br/>    
+        {% endfor %}
+    {% endfor %}
+
+    <h2 data-toggle="collapse" data-target="#a2019">2018</h2>
+    <div id="a2019" class="collapse">
       <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194557">Validation of automated lobe segmentation on paired inspiratory-expiratory chest CT in 8-14 year-old children
     with cystic fibrosis</a>
     </div>

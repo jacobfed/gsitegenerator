@@ -9,7 +9,27 @@
     "url": "/",
     "template": "publications.html",
     "context" : {
-        "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival."
+        "header" :"Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.",
+        "years": [
+          {
+            "year" : "2018",
+            "publications": [
+              {
+                "title": "Validation of automated lobe segmentation on paired inspiratory-expiratory chest CT in 8-14 year-old children with cystic fibrosis",
+                "url" : "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194557"
+              }
+            ]
+          },          
+          {
+            "year" : "2017",
+            "publications": [
+              {
+                "title": "Validation of automated lobe segmentation on paired inspiratory-expiratory chest CT in 8-14 year-old children with cystic fibrosis",
+                "url" : "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194557"
+              }
+            ]
+          }
+        ]
     }
   },
   {
