@@ -28,12 +28,12 @@
   <link rel="stylesheet" type="text/css"  href="/~cgalbanlab/css/style.css">
 
  <!-- Umich Icon for Chrome tabs -->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/~cgalbanlab/img/favicon.ico" type="image/x-icon" />
   <title>Galban Lab</title> 
 </head>
 
 <body>
-  <div class="container">
+    <div class="container">
     <div class="row">
       <div class="col-md-6">
         <img src="/~cgalbanlab/img/craigLogo.png" alt="Craig Logo" width="60%">
@@ -43,8 +43,9 @@
       </div>
       <!-- Place for image of labs around the world-->
       <div class="col-md-6">
-        <p>Algorithmic development of translatable CT-based biomarkers for disease
-        phenotyping and prediction of therapeutic response and survival.</p>
+        <p> 
+Algorithmic development of translatable CT-based biomarkers for disease phenotyping and prediction of therapeutic response and survival.
+</p>
       </div>
     </div>
   </div>
@@ -52,7 +53,7 @@
   <nav class="navbar navbar-expand-md bg-light navbar-light container sticky-top">
     <!-- Brand -->
     <ul class="navbar-nav">
-      <li class="nav-item"><a class= "nav-link" href="index.html">Home</a></li>
+      <li class="nav-item active"><a class= "nav-link" href="index.html">Home</a></li>
     </ul>
 
     <!-- Collapsible Button for Mobile Devices -->
@@ -65,43 +66,45 @@
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
         <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
-        <li class="nav-item active"><a class="nav-link" href="publications.html">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
         <li class="nav-item"><a class="nav-link" href="collaborators.html">Collaborators</a></li>
-        <li class="nav-item"><a class="nav-link" href="conferences.html">Conferences</a></li>
         <li class="nav-item"><a class="nav-link" href="opportunities.html">Opportunities</a></li>
       </ul>
     </div>
   </nav>  
 
   <!-- End of Navbar -->
+  
 
-  <!-- End of Base URL -->
-
-  <!-- Start of Publications -->
+  <!-- Start of Opportunities -->
   <div class="container text-center">
-    <h1> Publications </h1>
-    <br/>
-    <p class="text-center">Click <a href="https://experts.umich.edu/discover/publication?and_facet_profiles_author=735">HERE</a> for a complete list of Publications with statistics and citing information</p>
-
-<<<<<<< HEAD
-  <!-- Start of Base Pages -->
-
+    <h1> Job Opportunities </h1>
+    <p class="text-center"> For inquiries and opportunities, fill out this Google Form </p>
+    <a class="btn btn-outline-dark" href="https://goo.gl/forms/U2BDD2G5bJoIEvKx1">Contact Us</a>
+  </div>
+  <!-- End of Opportunities -->
+  <div class="container text-center">
+    <h1> Current Postings </h1>
+    <div class="row">
+    
+      <div class="container text-center">
+        <div class="col-md-12">
+          <h4>Research Assistant</h4>  
+          <p class="text-center">For more information, check the full posting <a class="embed-responsive-item" href="/~cgalbanlab/pdf/Research_Assistant_Position.pdf"> HERE </a> or email abfortun@med.umich.edu</p>
+      </div>
+    
+      <div class="container text-center">
+        <div class="col-md-12">
+          <h4>Postdoctoral Research Fellow</h4>  
+          <p class="text-center">For more information, check the full posting <a class="embed-responsive-item" href="/~cgalbanlab/pdf/Postdoc_Research_Fellow2.pdf"> HERE </a> or email abfortun@med.umich.edu</p>
+      </div>
+    
+    </div>
+  </div>
+ 
   <!-- Horizontal Line -->
   <div class="container text-center">
     <hr>
   </div>
 </body>
 </html>
-=======
-    {% for year in years %}
-      <h2 data-toggle="collapse" data-target="#a{{year.year}}">{{year.year}}</h2>
-        <div id="a{{year.year}}" class="collapse">
-          {% for publication in year.publications %}
-            <a href="{{publication.url}}">{{publication.title}}</a>
-            <br/><br/>    
-          {% endfor %}
-        </div>
-    {% endfor %}
-  <!-- End of Publications -->
-{% endblock %}
->>>>>>> 0681c850045d9eab23ad92b67b7d1923474f8561
