@@ -5,6 +5,9 @@
 set -e
 set -x
 
+#cd ~cgalbanlab/Private/gsitegenerator
+#$1@login.itd.umich.edu -t
+
 ssh caen """
 # Clean
 echo 'Navigate to AWS'
@@ -22,7 +25,7 @@ rm -rf galban/html
 # Build
 sitegenerator galban
 
-
+pwd
 echo 'copying built website to public URL'
 cp -a galban/html/. ../../Public/html/
 """
