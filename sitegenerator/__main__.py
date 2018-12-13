@@ -4,17 +4,21 @@ import json
 import os
 import shutil
 import jinja2
-import click
+#import click
+import sys
 
 
 # Creating command-line arguments
+'''
 @click.command(help='Templated static website generator.')
 @click.option('--verbose', '-v', is_flag=True,
               help='Print more output.', default=False)
 @click.argument('input_dir', nargs=1)
+'''
 # main function
-def main(verbose, input_dir):
+def main():
     """Docstring."""
+    input_dir = sys.argv[1]
     try:
         # Setup new html directory
         html_path = os.path.abspath(input_dir + '/html')
@@ -33,9 +37,8 @@ def main(verbose, input_dir):
         if os.path.exists(os.path.abspath(input_dir + '/static/')):
             shutil.copytree(os.path.abspath(input_dir + '/static/'),
                             os.path.abspath(input_dir + '/html/'))
-            if verbose:
-                print('Copied ' + input_dir + '/static/ -> '
-                      + input_dir + "/html/")
+            print('Copied ' + input_dir + '/static/ -> '
+                  + input_dir + "/html/")
         # Creating html directory if copying over files not done
         else:
             os.mkdir(html_path)
@@ -57,10 +60,9 @@ def main(verbose, input_dir):
             outputfile = open(path_to_outputfile, 'w')
             outputfile.write(output)
             # Verbose output
-            if verbose:
-                print('Rendered ' + index['template']
-                      + ' -> ' + input_dir +
-                      '/html' + index['url'] + index['template'])
+            print('Rendered ' + index['template']
+                  + ' -> ' + input_dir +
+                  '/html' + index['url'] + index['template'])
     except jinja2.TemplateError:
         print('Error_Jinja')
         exit(1)

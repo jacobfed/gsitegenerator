@@ -3,11 +3,13 @@
 # stop on errors, print commands
 
 set -e
-
-ssh caen """
+echo 'Connecting to University Server'
+echo 'Enter level 1 password'
+ssh jacobfed@cheerleading.dsc.umich.edu """
+source /opt/rh/python33/enable-csh
 # Clean
 echo 'Navigate to AWS'
-cd ../../afs/umich.edu/group/c/cgalbanlab/Private/gsitegenerator
+cd ~cgalbanlab/Private/gsitegenerator
 
 echo 'Activate virtual Environment'
 source env/bin/activate

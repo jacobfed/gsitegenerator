@@ -9,8 +9,8 @@ set -x
 rm -rf galban/html
 
 # Build
-sitegenerator -v galban
+sitegenerator galban -v
 
-# serve 
+# serve
 cd galban/html
 python3 -m http.server 8000
