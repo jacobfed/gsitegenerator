@@ -201,20 +201,6 @@
           ]
         },
         {          
-          "name": "Andrew Dziobak",
-          "title":"Research Assistant",
-          "target":"andrew",
-          "target2":"andrew1",
-          "info":"University of Michigan",
-          "img":"false",
-          "img_url":"",
-          "content": [
-            {"details":"University of Michigan,"},
-            {"details":"Computer Engineering"},
-            {"details":"Email: afdzioba@umich.edu"}
-          ]
-        },
-        {          
           "name": "Jacob Fedrigon",
           "title":"Research Assistant",
           "target":"jacob",
