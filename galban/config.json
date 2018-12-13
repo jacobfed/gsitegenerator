@@ -201,6 +201,24 @@
           ]
         },
         {          
+          "name": "Sundaresh Ram",
+          "title":"Postdoctoral Research Fellow",
+          "target":"sundaresh",
+          "target2":"sundaresh1",
+          "info":"University of Michigan",
+          "img":"false",
+          "img_url":"",
+          "content": [
+            {"details":"University of Michigan,"},
+            {"details":"Department of Radiology"},
+            {"details":"BSRB, Room D205"},
+            {"details":"109 Zina Pitcher Place"},
+            {"details":"Ann Arbor, MI 48109-2200"},
+            {"details":"Phone(office): 734-615-2281"},
+            {"details":"Email: sundarer@umich.edu"}
+          ]
+        },
+        {          
           "name": "Jacob Fedrigon",
           "title":"Research Assistant",
           "target":"jacob",
