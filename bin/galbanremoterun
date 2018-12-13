@@ -7,6 +7,12 @@ echo 'Connecting to University Server'
 echo 'Enter level 1 password'
 ssh jacobfed@cheerleading.dsc.umich.edu """
 source /opt/rh/python33/enable-csh
+# set -x
+
+# #cd ~cgalbanlab/Private/gsitegenerator
+# #$1@login.itd.umich.edu -t
+
+# ssh caen
 # Clean
 echo 'Navigate to AWS'
 cd ~cgalbanlab/Private/gsitegenerator
@@ -23,7 +29,7 @@ rm -rf galban/html
 # Build
 sitegenerator galban
 
-
+pwd
 echo 'copying built website to public URL'
 cp -a galban/html/. ../../Public/html/
 """

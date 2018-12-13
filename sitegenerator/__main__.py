@@ -46,26 +46,27 @@ def main():
         # Iterate through each item in the config.json list, render it,
         # and write to output file
         for index in datastore:
-            template = template_env.get_template(index['template'])
-            output = template.render(index['context'])
+            try:
+                template = template_env.get_template(index['template'])
+                output = template.render(index['context'])
 
-            # Setup mkdir setup TODO
-            if not os.path.exists(os.path.abspath(input_dir + '/html' +
-                                                  index['url'])):
-                os.makedirs(os.path.abspath(input_dir +
-                                            '/html' + index['url']))
-            path_to_outputfile = os.path.abspath(input_dir + '/html' +
-                                                 index['url'] + index['template'])
-            print(os.path.abspath(input_dir + '/html' + index['url'] + index['template']))
-            outputfile = open(path_to_outputfile, 'w')
-            outputfile.write(output)
-            # Verbose output
-            print('Rendered ' + index['template']
-                  + ' -> ' + input_dir +
-                  '/html' + index['url'] + index['template'])
-    except jinja2.TemplateError:
-        print('Error_Jinja')
-        exit(1)
+                # Setup mkdir setup TODO
+                if not os.path.exists(os.path.abspath(input_dir + '/html' +
+                                                      index['url'])):
+                    os.makedirs(os.path.abspath(input_dir +
+                                                '/html' + index['url']))
+                path_to_outputfile = os.path.abspath(input_dir + '/html' +
+                                                     index['url'] + index['template'])
+                print(os.path.abspath(input_dir + '/html' + index['url'] + index['template']))
+                outputfile = open(path_to_outputfile, 'w')
+                outputfile.write(output)
+                # Verbose output
+                print('Rendered ' + index['template']
+                      + ' -> ' + input_dir +
+                      '/html' + index['url'] + index['template'])
+            except jinja2.TemplateError:
+                print('Error_Jinja in file ', index['template'])
+                exit(1)
     except ValueError:
         print('Error_JSON')
         exit(1)

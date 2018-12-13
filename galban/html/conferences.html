@@ -52,7 +52,7 @@
   <nav class="navbar navbar-expand-md bg-light navbar-light container sticky-top">
     <!-- Brand -->
     <ul class="navbar-nav">
-      <li class="nav-item active"><a class= "nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class= "nav-link" href="index.html">Home</a></li>
     </ul>
 
     <!-- Collapsible Button for Mobile Devices -->
@@ -67,7 +67,7 @@
         <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
         <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
         <li class="nav-item"><a class="nav-link" href="collaborators.html">Collaborators</a></li>
-        <li class="nav-item"><a class="nav-link" href="conferences.html">Conferences</a></li>
+        <li class="nav-item active"><a class="nav-link" href="conferences.html">Conferences</a></li>
         <li class="nav-item"><a class="nav-link" href="opportunities.html">Opportunities</a></li>
       </ul>
     </div>
@@ -76,53 +76,19 @@
   <!-- End of Navbar -->
 
   <!-- End of Base URL -->
-  <!--- Start of Bio -->
-  <div class="container">
-    <div class="row">
-      <!-- Place for image of labs around the world-->
-      <div class="col-lg-8">
-        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{bio}}</p>
-        <!-- Start of Carousel -->
-        <div class="container text-center">
-          <div id="demo" class="carousel slide" data-ride="carousel">
 
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-              <li data-target="#demo" data-slide-to="3"></li>
-              <li data-target="#demo" data-slide-to="4"></li>
-            </ul>
-
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              {% for image in images %}
-              <div class="carousel-item {{image.active}}">
-                <img src="{{image.img_url}}" alt="{{image.img_alt}}" width=auto height='500 px'>
-              </div>
-              {% endfor %}
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-            </div>
-  <!-- End of Carousel -->
-        </div>
-      </div>
-      <div class="col-lg-4 d-none d-sm-block">
-        <h4>Recent News</h4>
-        <a class="twitter-timeline" data-width="100%" data-height="100%" data-theme="light" href="https://twitter.com/NIH?ref_src=twsrc%5Etfw">Tweets by NIH</a> 
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-    </div>
+  <!-- Start of Conferences -->
+  <div class="container text-center">
+    <h1> Conferences </h1>
   </div>
-  <!-- End of Bio -->
+    <div class="container embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/embed?src=umich.edu_3csatbppcp07goa2f9f00jbnj8%40group.calendar.google.com&ctz=America%2FNew_York">Loading...</iframe>
+  </div>
+
+  <!-- End of Conferences -->
+
+  <!-- Start of Base Pages -->
+
   <!-- Horizontal Line -->
   <div class="container text-center">
     <hr>

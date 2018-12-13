@@ -9,7 +9,7 @@ set -x
 rm -rf galban/html
 
 # Build
-sitegenerator galban -v
+sitegenerator galban 
 
 # serve
 cd galban/html
