@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# stop on errors, print commands
+
+set -e
+echo 'Connecting to University Server'
+echo 'Enter level 1 password'
+ssh cgalban@cheerleading.dsc.umich.edu """
+echo 'Navigate to AWS'
+cd ~cgalbanlab/Private/gsitegenerator
+
+source /opt/rh/python33/enable-csh
+
+echo 'Activate virtual Environment'
+source env/bin/activate.csh
+
+echo 'Pulling current website generator from github'
+git pull
+
+echo 'removing old html'
+rm -rf galban/html
+
+# Build
+sitegenerator galban
+
+pwd
+echo 'copying built website to public URL'
+cp -a galban/html/. ../../Public/html/
+"""
