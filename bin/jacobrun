@@ -5,14 +5,11 @@
 set -e
 echo 'Connecting to University Server'
 echo 'Enter level 1 password'
-ssh jacobfed@cheerleading.dsc.umich.edu """
+ssh caen """
 echo 'Navigate to AWS'
-cd ~cgalbanlab/Private/gsitegenerator
-
-source /opt/rh/python33/enable-csh
-
+cd ../../afs/umich.edu/group/c/cgalbanlab/Private/gsitegenerator
 echo 'Activate virtual Environment'
-source env/bin/activate-csh
+source env/bin/activate
 
 echo 'Pulling current website generator from github'
 git pull
