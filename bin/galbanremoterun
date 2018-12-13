@@ -12,7 +12,7 @@ cd ~cgalbanlab/Private/gsitegenerator
 source /opt/rh/python33/enable-csh
 
 echo 'Activate virtual Environment'
-source env/bin/activate-csh
+source env/bin/activate.csh
 
 echo 'Pulling current website generator from github'
 git pull
