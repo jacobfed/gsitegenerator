@@ -97,7 +97,7 @@
         },
         {
           "name": "Machine Learning",
-          "description": "Developing ml algorithms for radiological and clinical applications.",
+          "description": "Developing ML algorithms for radiological and clinical applications.",
           "img_url":"/~cgalbanlab/img/machinelearning.png",
           "img_alt":"symbol",
           "url":"projects/ml/project.html"
