@@ -5,7 +5,7 @@
 set -e
 echo 'Connecting to University Server'
 echo 'Enter level 1 password'
-ssh $1@cheerleading.dsc.umich.edu """
+ssh abfortun@cheerleading.dsc.umich.edu """
 echo 'Navigate to AWS'
 cd ~cgalbanlab/Private/gsitegenerator
 
