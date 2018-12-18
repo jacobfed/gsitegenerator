@@ -449,7 +449,7 @@
     }
   },
   {
-    "url": "/projects/Machine Learning/",
+    "url": "/",
     "template": "project.html",
     "context" : {
       "title" : "Machine Learning",
