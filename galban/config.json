@@ -470,7 +470,7 @@
         },
         { 
           "background" : "bg-light",
-          "title" : "Identigy Regions of Air Trapping",
+          "title" : "Identify Regions of Air Trapping",
           "description" :"Developing ML to detect regional air trapping on expiratory CT scans.",
           "Read Our Paper" : "",
           "img_url" : "/~cgalbanlab/img/projects/AT.png"
