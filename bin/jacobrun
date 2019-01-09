@@ -12,7 +12,7 @@ echo 'Activate virtual Environment'
 source env/bin/activate
 
 echo 'Pulling current website generator from github'
-git pull
+git pull -Xtheirs
 
 echo 'removing old html'
 rm -rf galban/html
