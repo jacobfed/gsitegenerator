@@ -314,7 +314,7 @@
     }
   },
   {
-    "url": "/projects/Lung Disease/",
+    "url": "/projects/Lung_Disease/",
     "template": "project.html",
     "context" : {
       "title" : "Lung Disease",
@@ -445,7 +445,7 @@
     }
   },
   {
-    "url": "/projects/Machine Learning/",
+    "url": "/projects/Machine_Learning/",
     "template": "project.html",
     "context" : {
       "title" : "Machine Learning",
@@ -475,7 +475,7 @@
     }
   },
   {
-    "url": "/projects/Quantitative Imaging/",
+    "url": "/projects/Quantitative_Imaging/",
     "template": "project.html",
     "context" : {
       "title" : "Quantitative Imaging",
@@ -516,7 +516,7 @@
     }
   },
   {
-    "url": "/projects/MultiParametric Analysis/",
+    "url": "/projects/MultiParametric_Analysis/",
     "template": "project.html",
     "context" : {
       "title" : "MultiParametric Analysis",
