@@ -448,7 +448,7 @@
     "template": "project.html",
     "context" : {
       "title" : "Machine Learning",
-      "description" : "Developing ML algorithms for radiological & clinical applications",
+      "description" : "SDeveloping ML algorithms for radiological & clinical applications",
       "links" : [
         {
           "url" : "",

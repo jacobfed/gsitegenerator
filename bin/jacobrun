@@ -5,7 +5,32 @@
 set -e
 echo 'Connecting to University Server'
 echo 'Enter level 1 password'
-ssh caen """
+
+ssh jacobfed@cheerleading.dsc.umich.edu """
+echo 'Navigate to AWS'
+cd ~cgalbanlab/Private/gsitegenerator
+
+source /opt/rh/python33/enable-csh
+
+echo 'Activate virtual Environment'
+source env/bin/activate.csh
+
+echo 'Pulling current website generator from github'
+git pull -Xtheirs
+
+echo 'removing old html'
+rm -rf galban/html
+
+# Build
+sitegenerator galban
+
+pwd
+echo 'copying built website to public URL'
+cp -a galban/html/. ../../Public/html/
+"""
+
+"""
+Old script using caen
 echo 'Navigate to AWS'
 cd ../../afs/umich.edu/group/c/cgalbanlab/Private/gsitegenerator
 echo 'Activate virtual Environment'
