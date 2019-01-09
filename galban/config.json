@@ -23,11 +23,6 @@
     "context" : {
       "opportunities" : [
         {
-        "title" : "Research Assistant",
-        "pdf" : "/~cgalbanlab/pdf/Research_Assistant_Position.pdf",
-        "email" : "abfortun@med.umich.edu"
-        },
-        {
         "title" : "Postdoctoral Research Fellow",
         "pdf" : "/~cgalbanlab/pdf/Postdoc_Research_Fellow.pdf",
         "email" : "abfortun@med.umich.edu"
@@ -79,7 +74,7 @@
           "description": "New approaches to characterize obstructive and restrictive lung diseases.",
           "img_url":"/~cgalbanlab/img/copd.png",
           "img_alt":"symbol",
-          "url":"projects/copd/project.html"
+          "url":"projects/Lung Disease/project.html"
         },
         {
           "name": "GVHD",
@@ -97,7 +92,7 @@
         },
         {
           "name": "Machine Learning",
-          "description": "Developing ml algorithms for radiological and clinical applications.",
+          "description": "Developing ML algorithms for radiological and clinical applications.",
           "img_url":"/~cgalbanlab/img/machinelearning.png",
           "img_alt":"symbol",
           "url":"projects/ml/project.html"
@@ -201,17 +196,21 @@
           ]
         },
         {          
-          "name": "Andrew Dziobak",
-          "title":"Research Assistant",
-          "target":"andrew",
-          "target2":"andrew1",
+          "name": "Sundaresh Ram",
+          "title":"Postdoctoral Research Fellow",
+          "target":"sundaresh",
+          "target2":"sundaresh1",
           "info":"University of Michigan",
           "img":"false",
           "img_url":"",
           "content": [
             {"details":"University of Michigan,"},
-            {"details":"Computer Engineering"},
-            {"details":"Email: afdzioba@umich.edu"}
+            {"details":"Department of Radiology"},
+            {"details":"BSRB, Room D205"},
+            {"details":"109 Zina Pitcher Place"},
+            {"details":"Ann Arbor, MI 48109-2200"},
+            {"details":"Phone(office): 734-615-2281"},
+            {"details":"Email: sundarer@umich.edu"}
           ]
         },
         {          
@@ -466,8 +465,8 @@
         },
         { 
           "background" : "bg-light",
-          "title" : "Identigy Regions of Air Trapping",
-          "description" :"Developing ML to detect regional air trapping on expiratory CT scans.",
+          "title" : "Identify Regions of Air Trapping",
+          "description" :"Developing ML techniques to detect regional air trapping on expiratory CT scans.",
           "Read Our Paper" : "",
           "img_url" : "/~cgalbanlab/img/projects/AT.png"
         }
