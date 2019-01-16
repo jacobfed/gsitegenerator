@@ -246,6 +246,20 @@
             {"details":"Computer Engineering"},
             {"details":"Email: lreyn@umich.edu"}
           ]
+        },
+        {          
+          "name": "Madhav Kumar",
+          "title":"Research Assistant",
+          "target":"madhav",
+          "target2":"madhav1",
+          "info":"University of Michigan",
+          "img":"false",
+          "img_url":"",
+          "content": [
+            {"details":"University of Michigan,"},
+            {"details":"Biomedical Engineering"},
+            {"details":"Email: madhavkr@umich.edu"}
+          ]
         }
       ],     
       "affiliated": [
