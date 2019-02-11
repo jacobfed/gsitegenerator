@@ -17,7 +17,9 @@ source env/bin/activate.csh
 
 echo 'Pulling current website generator from github'
 #git pull -Xtheirs
-git fetch --all
+#git fetch --all
+#git pull origin master
+git reset --hard origin/master
 
 echo 'removing old html'
 rm -rf galban/html
