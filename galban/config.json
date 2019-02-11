@@ -122,7 +122,7 @@
       "images": [
           {
           "img_url":"/~cgalbanlab/img/prm1.jpg",
-          <a href=\"someimage.png\" /><\/a>"img_alt":"prm1",
+          "img_alt":"prm1",
           "active" : "active"
         },
         {
