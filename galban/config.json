@@ -208,6 +208,9 @@
           "info":"University of Michigan",
           "img":"true",
           "img_url":"/~cgalbanlab/img/Sundaresh.jpg",
+          "link": "true",
+          "link_type": "Webpage",
+          "link_url":"http://www.umich.edu/~sundarer",
           "content": [
             {"details":"University of Michigan,"},
             {"details":"Department of Radiology"},
