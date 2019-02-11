@@ -184,7 +184,7 @@
           "target2":"aleksa1",
           "info":"University of Michigan",
           "img":"false",
-          "img_url":"",
+          "img_url":"/~cgalbanlab/img/Aleksa.jpg",
           "content": [
             {"details":"University of Michigan,"},
             {"details":"Department of Radiology"},
@@ -201,8 +201,11 @@
           "target":"sundaresh",
           "target2":"sundaresh1",
           "info":"University of Michigan",
-          "img":"false",
-          "img_url":"",
+          "img":"true",
+          "img_url":"/~cgalbanlab/img/Sundaresh.jpg",
+          "link": "true",
+          "link_type": "Webpage",
+          "link_url":"http://www.umich.edu/~sundarer",
           "content": [
             {"details":"University of Michigan,"},
             {"details":"Department of Radiology"},
@@ -211,23 +214,6 @@
             {"details":"Ann Arbor, MI 48109-2200"},
             {"details":"Phone(office): 734-615-2281"},
             {"details":"Email: sundarer@umich.edu"}
-          ]
-        },
-        {          
-          "name": "Jacob Fedrigon",
-          "title":"Research Assistant",
-          "target":"jacob",
-          "target2":"jacob1",
-          "info":"University of Michigan",
-          "img":"false",
-          "img_url":"",
-          "link": "true",
-          "link_type": "Github",
-          "link_url":"https://github.com/jacobfed",
-          "content": [
-            {"details":"University of Michigan,"},
-            {"details":"Computer Science"},
-            {"details":"Email: jacobfed@umich.edu"}
           ]
         },
         {          
@@ -245,6 +231,34 @@
             {"details":"University of Michigan,"},
             {"details":"Computer Engineering"},
             {"details":"Email: lreyn@umich.edu"}
+          ]
+        },
+        {          
+          "name": "Madhav Kumar",
+          "title":"Research Assistant",
+          "target":"madhav",
+          "target2":"madhav1",
+          "info":"University of Michigan",
+          "img":"false",
+          "img_url":"",
+          "content": [
+            {"details":"University of Michigan,"},
+            {"details":"Biomedical Engineering"},
+            {"details":"Email: madhavkr@umich.edu"}
+          ]
+        },
+        {          
+          "name": "Justin Reinhold",
+          "title":"Research Assistant",
+          "target":"justin",
+          "target2":"justin1",
+          "info":"University of Michigan",
+          "img":"false",
+          "img_url":"",
+          "content": [
+            {"details":"University of Michigan,"},
+            {"details":"Biomedical Engineering"},
+            {"details":"Email: justrein@umich.edu"}
           ]
         }
       ],     
@@ -438,7 +452,7 @@
           "title" : "Radiation Planning of Lung Cancer",
           "description" :"Non-small cell lung cancer (NSCLC) patients are at an increased risk for pulmonary comorbidities, which are known to effect radiation treatment (RT) outcomes. And yet, RT plans are currently developed without considering underlying functionality of the lung. We provide preliminary evidence demonstrating the potential of our tPRM approach for patient-specific radiation treatment planning.",
           "Read Our Paper" : "https://www.nature.com/articles/s41598-017-02871-1",
-          "img_url" : "/~cgalbanlab/img/projects/cancer_panel2.png"
+          "img_url" : "/~cgalbanlab/img/projects/cancer_panel2.jpg"
         }
       ]
     }
@@ -509,7 +523,7 @@
           "title" : "uTe MRI for Cystic Fibrosis in pediatrics",
           "description" :"Magnetic resonance T1 mapping and ultrashort echo time (UTE) imaging of the lung in the evaluation of acute pulmonary exacerbation in pediatric cystic fibrosis patients during treatment.",
           "Read Our Paper" : "",
-          "img_url" : "/~cgalbanlab/img/projects/uTE_T1map.png"
+          "img_url" : "/~cgalbanlab/img/projects/uTE_T1map.jpg"
         }
       ]
     }
