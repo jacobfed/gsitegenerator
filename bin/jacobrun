@@ -16,7 +16,8 @@ echo 'Activate virtual Environment'
 source env/bin/activate.csh
 
 echo 'Pulling current website generator from github'
-git pull -Xtheirs
+#git pull -Xtheirs
+git fetch --all
 
 echo 'removing old html'
 rm -rf galban/html
