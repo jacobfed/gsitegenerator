@@ -95,7 +95,7 @@
           "description": "Developing ML algorithms for radiological and clinical applications.",
           "img_url":"/~cgalbanlab/img/machinelearning.png",
           "img_alt":"symbol",
-          "url":"projects/ml/project.html"
+          "url":"projects/Machine_Learning/project.html"
         },
         {
           "name": "Quantitative Imaging",
@@ -458,7 +458,7 @@
     }
   },
   {
-    "url": "/projects/ml/",
+    "url": "/projects/Machine_Learning/",
     "template": "project.html",
     "context" : {
       "title" : "Machine Learning",
