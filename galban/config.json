@@ -206,8 +206,8 @@
           "target":"sundaresh",
           "target2":"sundaresh1",
           "info":"University of Michigan",
-          "img":"false",
-          "img_url":"",
+          "img":"true",
+          "img_url":"/~cgalbanlab/img/Sundaresh.jpg",
           "content": [
             {"details":"University of Michigan,"},
             {"details":"Department of Radiology"},
@@ -216,23 +216,6 @@
             {"details":"Ann Arbor, MI 48109-2200"},
             {"details":"Phone(office): 734-615-2281"},
             {"details":"Email: sundarer@umich.edu"}
-          ]
-        },
-        {          
-          "name": "Jacob Fedrigon",
-          "title":"Research Assistant",
-          "target":"jacob",
-          "target2":"jacob1",
-          "info":"University of Michigan",
-          "img":"false",
-          "img_url":"",
-          "link": "true",
-          "link_type": "Github",
-          "link_url":"https://github.com/jacobfed",
-          "content": [
-            {"details":"University of Michigan,"},
-            {"details":"Computer Science"},
-            {"details":"Email: jacobfed@umich.edu"}
           ]
         },
         {          
@@ -264,6 +247,20 @@
             {"details":"University of Michigan,"},
             {"details":"Biomedical Engineering"},
             {"details":"Email: madhavkr@umich.edu"}
+          ]
+        },
+        {          
+          "name": "Justin Reinhold",
+          "title":"Research Assistant",
+          "target":"justin",
+          "target2":"justin1",
+          "info":"University of Michigan",
+          "img":"false",
+          "img_url":"",
+          "content": [
+            {"details":"University of Michigan,"},
+            {"details":"Biomedical Engineering"},
+            {"details":"Email: justrein@umich.edu"}
           ]
         }
       ],     
